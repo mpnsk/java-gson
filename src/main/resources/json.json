@@ -11,7 +11,7 @@
   "controllerLayer" : 0,
   "controllerAmount" : 1,
   "possibleControllerPos" : {
-    "onEdge" : [0,1,0]
+    "onEdge" : [0,"x",0]
   },
   "blockConfig" : {
     "layer0" : [["#","#","#"],["#","#","#"],["#","#","#"]],
