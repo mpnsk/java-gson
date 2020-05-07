@@ -1,0 +1,40 @@
+{
+  "name" : "multi_block_furnace",
+  "size" : [3,3,3],
+  "fixedSize" : true,
+  "controller" : "minecraft:furnace",
+  "controllerNeeded" : true,
+  "specificControllerPosition" : true,
+  "specificControllerPositionRotational" : false,
+  "fixedControllerAmount" : true,
+  "specificControllerLayer" : true,
+  "controllerLayer" : 0,
+  "controllerAmount" : 1,
+  "possibleControllerPos" : {
+    "onEdge" : [0,1,0]
+  },
+  "blockConfig" : {
+    "layer0" : [["#","#","#"],["#","#","#"],["#","#","#"]],
+    "layer1" : [["#","#","#"],["#","A","#"],["#","#","#"]],
+    "layer2" : [["#","#","#"],["#","#","#"],["#","#","#"]],
+    "keys" : {
+      "#" : {
+        "block" : "minecraft:stone"
+      },
+      "A" : {
+        "block" : "minecraft:air"
+      }
+    }
+  },
+  "optionalBlocks" : true,
+  "optionalBlocksPos": {
+    "layer0" : [["0","0","0"],["0","O","0"],["0","0","0"]],
+    "layer1" : [["0","C","0"],["C","0","C"],["0","C","0"]],
+    "layer2" : [["0","0","0"],["0","I","0"],["0","0","0"]],
+    "keys" : {
+      "O" : "redsenhance:molten_metal_faucet",
+      "C" : "redsenhance:compressed_air_inlet",
+      "I" : "redsenhance:crushed_washed_ore_inlet"
+    }
+  }
+}
